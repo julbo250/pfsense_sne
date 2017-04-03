@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+  <!--<![endif]-->
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Wifi Berthelot</title>
+    <link rel="stylesheet" href="captiveportal-style.css">
+    <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  </head>
+  <body>
+    <form method="post" action="$PORTAL_ACTION$" class="login">
+      <h1>Wifi Lycée Marcelin Berthelot</h1>
+      <p class="login-error">$PORTAL_MESSAGE$</p>
+      <input name="auth_user" class="login-input" placeholder="Username" autofocus=""
+
+        type="text"> <input name="auth_pass" class="login-input" placeholder="Password"
+
+        type="password">
+      <p class="login-p">ou</p>
+      <input name="auth_voucher" class="login-input" placeholder="Voucher Code"
+
+        autofocus="" type="text"> <input name="accept" value="Continuer" class="login-submit"
+
+        type="submit">
+      <hr> <br>
+      <center><img src="captiveportal-logo.png"><br>
+        service SNE - Région Nouvelle-Aquitaine</center>
+    </form>
+  </body>
+</html>
