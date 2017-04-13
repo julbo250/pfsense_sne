@@ -15,18 +15,24 @@
   <body>
     <form method="post" action="$PORTAL_ACTION$" class="login">
       <h1>Wifi Lycée Marcelin Berthelot</h1>
+      <p style="text-align: center;"><span style="color: #ffcc66;">réseau
+          wifi&nbsp; dispobible pour les professeurs</span></p>
+      <p style="text-align: center;"><span style="color: #ffcc66;"> du lycée de
+          8h00 à 19h00</span></p>
+      <p style="text-align: center;"><br>
+      </p>
       <p class="login-p">Entrer un login/mot de passe valide</p>
-      <input name="auth_user" class="login-input" placeholder="Username" autofocus type="text"> 
-	  <input name="auth_pass" class="login-input" placeholder="Password" type="password">
+      <input name="auth_user" class="login-input" placeholder="Username" autofocus=""
+        type="text"> <input name="auth_pass" class="login-input" placeholder="Password"
+        type="password">
       <p class="login-p">ou un code voucher</p>
-      <input name="auth_voucher" class="login-input" placeholder="Voucher Code" autofocus type="text">
-	  <input name="redirurl" type="hidden" value="$PORTAL_REDIRURL$">
-      <input name="zone" type="hidden" value="$PORTAL_ZONE$">
-	  <input name="accept" value="Continuer" class="login-submit" type="submit">
+      <input name="auth_voucher" class="login-input" placeholder="Voucher Code"
+        autofocus="" type="text"> <input name="redirurl" value="$PORTAL_REDIRURL$"
+        type="hidden"> <input name="zone" value="$PORTAL_ZONE$" type="hidden">
+      <input name="accept" value="Continuer" class="login-submit" type="submit">
       <hr> <br>
       <center><img src="captiveportal-logo.png"><br>
-        service SNE - Région Nouvelle-Aquitaine
-      </center>
+        service SNE - Région Nouvelle-Aquitaine </center>
     </form>
   </body>
 </html>
