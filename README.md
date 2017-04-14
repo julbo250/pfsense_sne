@@ -6,3 +6,5 @@ Modification du template Pfsense
 2- Dans le menu <b>Configuration</b> (1er menu à partir de la gauche) de la zone repérer la section <i>HTML Page Contents</i> puis pour l'attribut <i>Portal page contents</i> appuyer sur choisisser un fichier et selectionner <b>index.html</b> puis faire de même pour <i>Auth error page contents</i> et choisir cette fois  <b>login_error.html</b>.
 
 Votre thème est modifié !
+
+<img src="https://github.com/julbo250/pfsense_sne/blob/master/Capture%20portail.PNG">
