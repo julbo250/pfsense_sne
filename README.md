@@ -7,4 +7,4 @@ Modification du template Pfsense
 
 Votre thème est modifié !
 
-<img src="https://github.com/julbo250/pfsense_sne/blob/master/Capture%20portail.PNG">
+<center><img src="https://github.com/julbo250/pfsense_sne/blob/master/Capture%20portail.PNG"></center>
