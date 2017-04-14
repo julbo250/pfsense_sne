@@ -1,8 +1,8 @@
 # pfsense_sne
 Modification du template Pfsense
 
-1- Ajouter les fichiers captiveportal-style.css, login.html, login_error.html et logo.png sur le serveur pfsense depuis l'interface d'administration du pfsense --> Services/Portal Captive Editer la Captive Portal Zone puis dans le menu File Manager ajouter les fichiers un par un (+ADD).
+1- Ajouter les fichiers <b>captiveportal-style.css</b>, <b>login.html</b>, <b>login_error.html</b> et <b>logo.png</b> sur le serveur pfsense depuis l'interface d'administration du pfsense --> menu <b>Services</b> sous-menu <b>Portal Captive</b> Editer la <i>Captive Portal Zone</i> puis dans le menu <b>File Manager</b> (6ème menu à partir de la gauche) ajouter les fichiers un par un (+ADD).
 
-2- Dans le menu Configuration de la zone dans la section "HTML Page Contents" dans la section "Portal page contents" appuyer sur choisisser un fichier puis selectionner index.html puis faire de même pour "Auth error page contents" et choisir le fichier login_error.html.
+2- Dans le menu <b>Configuration</b> (1er menu à partir de la gauche) de la zone repérer la section <i>HTML Page Contents</i> puis pour l'attribut <i>Portal page contents</i> appuyer sur choisisser un fichier et selectionner <b>index.html</b> puis faire de même pour <i>Auth error page contents</i> et choisir cette fois  <b>login_error.html</b>.
 
 Votre thème est modifié !
