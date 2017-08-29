@@ -8,7 +8,7 @@ Dans l'onglet <b>Configuration</b>, à la section <i>HTML Page Contents</i>, mod
 Répeter l'opération pour l'attribut <i>Auth error page contents</i> et choisir le fichier <b>login_error.html</b>.
 
 
-2. Ajouter les fichiers <b>captiveportal-style.css</b> et <b>logo.png</b> sur le serveur pfsense depuis l'interface d'administration du pfsense<br />
+2. Ajouter les fichiers <b>captiveportal-style.css</b>, <b>logo.png</b> et <b>charte.pdf</b> sur le serveur pfsense depuis l'interface d'administration du pfsense<br />
 
 Toujours dans la configuration de la zone, dans l'onglet <b>File Manager</b> ajouter les fichiers un par un (+ADD).<br /><br/>
 
