@@ -1,5 +1,5 @@
 # pfsense_sne
-Modification du template Pfsense
+Modification du template portail captif de Pfsense
 
 1. Définir les pages <b>login.html</b> et <b>login_error.html</b><br/>
 
